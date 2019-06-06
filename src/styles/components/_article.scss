@@ -1,0 +1,44 @@
+.article {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 3px 1px #ececec;
+}
+
+.user-avatar {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    border-radius: 50%;
+    background-color: $light-blue;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.article-headline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.article-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.2rem;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.article-body {
+    text-align: left;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-bottom: 0;
+}

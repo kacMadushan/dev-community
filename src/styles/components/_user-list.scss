@@ -1,0 +1,30 @@
+.user-list {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: $white;
+    box-shadow: 0 0 3px 1px #ececec;
+}
+
+.list-of-user {
+    border: 0;
+}
+
+.user-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+
+.view-all-user {
+    color: $light-blue;
+    font-weight: 700;
+    font-style: italic;
+    font-size: .8rem;
+}
